@@ -13,7 +13,7 @@
 当输入框1输入为x，输入框2输入为y，图片名称为"**Screenshot%Y%m%d%H%M%S**"，则截图会保存到"**x/Screenshot%Y%m%d%H%M%S.png**"下，并返回剪切板地址如下：
 
 ```markdown
-![](y\Screenshot%Y%m%d%H%M%S.png)
+![](y/Screenshot%Y%m%d%H%M%S.png)
 ```
 
 此时将剪切版的内容粘贴到Markdown中即可直接引用。相对路径的原理可以参考**计算机其他语言**。
